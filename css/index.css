@@ -1,0 +1,518 @@
+a{
+	text-decoration: none;
+}
+input::placeholder{
+	font-size: 14px;
+	color: #a9a9a9;
+	padding-left: 12px;
+}
+.main{
+	float: left;
+	width: 1311px; 
+}
+.header{
+	position: relative;
+	width: 100%;
+	height: 640px;
+	background: url(../images/bannerV2.jpg) no-repeat center top;
+}
+.header .logo{
+	position: absolute;
+	left: 128px;
+	top: 38px;
+	width: 106px;
+	height: 140px;
+	background: url(../images/sprite.png) no-repeat -18px -378px;
+}
+.header .logo a{
+	font-size: 0;
+}
+.header .local{
+	position: absolute;
+	left: 247px;
+	top: 50px;
+	width: 59px;
+	height: 27px;
+	border-radius: 27px;
+	background-color: rgba(0,0,0,0.3);
+}
+.header .local i{
+	float: left;
+	margin-left: 10px;
+	margin-right: 5px;
+	width: 10px;
+	height: 27px;
+	background: url(../images/sprite.png) no-repeat -189px -13px;
+}
+.header .local span{
+	font:12px/27px "微软雅黑";
+	color: #fff;
+}
+.header .sign{
+	position: absolute;
+	left: 1136px;
+	top: 27px;
+	width: 115px;
+	height: 16px;
+}
+.header .sign i{
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin-right: 4px;
+	background: url(../images/sprite.png) no-repeat -204px -20px;
+}
+.header .sign a{
+	float: left;
+	margin-left: 5px;
+	font: 12px/16px "微软雅黑";
+	color: #fff;
+}
+.header .nav{
+	position: absolute;
+	left: 602px;
+	top: 45px;
+	width: 637px;
+	height: 24px;
+}
+.header .nav ul{
+	float: left;
+	width: 573px;
+	height: 24px;
+	margin-right: 15px;	
+}
+.header .nav ul li{
+	float: left;
+	padding-left: 20px;
+	height: 24px;
+}
+.header .nav ul li a{
+	font: bold 16px/24px "微软雅黑";
+	color: #fff;
+}
+.header .nav ul li i{
+	float: left;
+	width: 19px;
+	height: 22px;
+	background: url(../images/lvju.png) no-repeat ;
+}
+.header .nav i.yezhu{
+	float: left;
+	width: 7px;
+	height: 7px;
+	margin-top: 7px;
+	background: url(../images/sprite.png) no-repeat -225px -20px;
+}
+.header .nav a{
+	float: right;
+	height: 24px;
+	font: bold 16px/24px "微软雅黑";
+	color: #fff;
+}
+.header .bannertext{
+	position: absolute;
+	left: 407px;
+	top: 214px;
+	width: 535px;
+	height: 99px;
+}
+.header .bannertext span{
+	float: left;
+	margin-top: 15px;
+	width: 535px;
+	height: 21px;
+	font: 20px/21px "微软雅黑";
+	color: #fff;
+	text-align: center;
+	display: none;
+}
+.header .bannertext span.current{
+	display: block;
+}
+.header .search{
+	position: absolute;
+	left: 289px;
+	top: 354px;
+	width: 773px;
+	height: 89px;
+}
+.header .search ul.menu{
+	width: 356px;
+	height: 41px;
+}
+.header .search ul.menu li{
+	position: relative;
+	float: left;
+	height: 34px;
+	margin-right: 20px;
+}
+.header .search ul.menu li a{
+	font: bold 14px "微软雅黑";
+	color: #b5b4b3;
+}
+.header .search ul.menu li.current a{
+	color: #fff;
+}
+.header .search ul.menu li a:hover{
+	color: #d4d4d3;
+}
+.header .search ul.menu li.current i{
+	position: absolute;
+	left: 50%;
+	top:100%;
+	margin-left: -7px;
+	width: 14px;
+	height: 7px;
+	background: url(../images/sprite.png) no-repeat -252px -20px;
+}
+.header .searchbox{
+	float: left;
+	width: 773px;
+	height: 55px;
+} 
+.header .searchbox .searchin{
+	width: 646px;
+	height: 55px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	border: 0;
+}
+
+.header .searchbox button.find{
+	float: right;
+	height: 55px;
+	width: 127px;
+	border: 0;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	background-color: #00ae66;
+}
+.header .searchbox button.find span{
+	color: #fff;
+	font: 16px/55px "微软雅黑";
+}
+.header .notice{
+	position: absolute;
+	left: 100px;
+	top: 590px;
+	width: 600px;
+	height: 16px;
+}
+.header .notice .about{
+	float: left;
+	height: 16px;
+	width: 300px;
+}
+.header .notice .fangdichan{
+	float: left;
+	height: 16px;
+	width: 300px;
+}
+.header .notice .about img, .header .notice .fangdichan img{
+	float: left;
+	margin-right: 7px;
+	height: 16px;
+	width: 16px;
+}
+.header .notice .about a, .header .notice .fangdichan a{
+	font: 12px/16px "微软雅黑";
+	color: #fff;
+}
+/*php区域*/
+.php{
+	position: relative;
+	width: 1308px;
+	height: 245px;
+	border-right: 3px solid #ededed;
+}
+.php .ershou{
+	position: absolute;
+	left: 153px;
+	top: 45px;
+	width: 180px;
+	height: 141px;
+}
+.php .xinfang{
+	position: absolute;
+	left: 441px;
+	top: 45px;
+	width: 180px;
+	height: 141px;
+}
+.php .ditu{
+	position: absolute;
+	left: 728px;
+	top: 45px;
+	width: 180px;
+	height: 141px;
+}
+.php .fangwu{
+	position: absolute;
+	left: 1016px;
+	top: 45px;
+	width: 180px;
+	height: 141px;
+}
+.php .ershou img, .php .xinfang img, .php .ditu img, .php .fangwu img{
+	width: 76px;
+	height: 65px;
+	margin-left: 52px;
+}
+.php .ershou a:hover img, .php .xinfang a:hover img, .php .ditu a:hover img, .php .fangwu a:hover img{
+	position: relative;
+	top: -15px;
+}
+.php .ershou h2, .php .xinfang h2, .php .ditu h2, .php .fangwu h2{
+	font: 18px/22px "微软雅黑";
+	color: #394043;
+	margin-bottom: 4px;
+	margin-top: 18px;
+	text-align: center;
+}
+.php .ershou p, .php .xinfang p, .php .ditu p, .php .fangwu p{
+	font: 12px/18px "微软雅黑";
+	color: #b0b3b4;
+	text-align: center;
+}
+/*bgapp区域*/
+.bgapp{
+	position: relative;
+	width: 1311px;
+	height: 524px;
+	background: url(../images/bgapp.jpg) center top;
+}
+.bgapp .message{
+	position: absolute;
+	left: 100px;
+	top: 86px;
+	width: 476px;
+	height: 201px;
+	background: url(../images/sprite.png) no-repeat -446px -380px;
+	padding-top: 140px;
+}
+.bgapp .message p{
+	font: 14px/22px "微软雅黑";
+}
+.bgapp .download{
+	position: absolute;
+	left: 100px;
+	top: 328px;
+	width: 249px;
+	height: 104px;
+	background: url(../images/sprite.png) no-repeat -316px -138px;
+}
+.ershoufang{
+	position: relative;
+	width: 1311px;
+	height: 491px;
+}
+.ershoufang .erlogo{
+	position: absolute;
+	left: 100px;
+	top: 51px;
+	width: 247px;
+	height: 29px;
+	background: url(../images/sprite.png) no-repeat -19px -95px;
+}
+.ershoufang p.adv{
+	position: absolute;
+	left: 100px;
+	top: 92px;
+	width: 326px;
+	height: 18px;
+	font: 14px/18px "微软雅黑";
+	color: #888888;
+}
+.ershouinfo{
+	width: 249px;
+	height: 114px;
+	padding-top: 150px;
+	margin-bottom: 12px;			
+	box-shadow: 0 1px #e0e0e0;
+	border: 1px solid #d6d6d6;
+}
+.ershouinfo span{
+	display: block;
+	width: 58px;
+	padding-left: 9px;
+	font: 19px/30px "微软雅黑";
+	color: #fff;
+	background-color: #394043;
+	margin-bottom: 16px;
+}
+.ershouinfo h3{
+	font: 16px/34px "微软雅黑";
+	color: #394043;
+	padding-left: 19px;
+}
+.ershouinfo p{
+	font: 12px/28px "微软雅黑";
+	color: #a5a5c2;
+	padding-left: 19px;
+}
+span.lj{
+	font-size: 12px;
+	color: #bcaabc;
+}
+.ershoupic1{
+	position: absolute;
+	left: 100px;
+	top: 150px;
+	background: url(../images/ershoufang1.jpg) no-repeat;
+}
+.ershoupic2{
+	position: absolute;
+	left: 400px;
+	top: 150px;
+	background: url(../images/ershoufang2.jpg) no-repeat;
+}
+.ershoupic3{
+	position: absolute;
+	left: 700px;
+	top: 150px;
+	background: url(../images/ershoufang3.jpg) no-repeat;
+}
+.ershoupic4{
+	position: absolute;
+	left: 1000px;
+	top: 150px;
+	background: url(../images/ershoufang4.jpg) no-repeat;
+}
+/*banner*/
+.banner{
+	position: relative;
+	width: 100%;
+	height: 240px;
+	background: url(../images/truth-bg.jpg) no-repeat;
+}
+.banner .b_logo{
+	position: absolute;
+	left: 99px;
+	top: 65px;
+	width: 505px;
+	height: 110px;
+	background: url(../images/sprite.png) no-repeat -17px -255px;
+}
+.banner .txt{
+	position: absolute;
+	left: 700px;
+	top: 61px;
+	width: 360px;
+	height: 48px;
+	font: 17px/24px "微软雅黑";
+	color: #fff;
+}
+.banner .true{
+	position: absolute;
+	left: 700px;
+	top: 128px;
+	width: 555px;
+	height: 43px;
+}
+.banner .true .text{
+	float: left;
+	width: 512px;
+	height: 43px;
+	border: 0;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.banner .true span{
+	float: right;
+	width: 43px;
+	height: 43px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	background: url(../images/sprite.png) no-repeat -394px -7px #fff;
+}
+/*footer*/
+.footer{
+	position: relative;
+	width: 100%;
+	height:426px;
+	background: url(../images/footerbg.jpg) no-repeat top center;
+}
+.footer .list1{
+	position: absolute;
+	left: 100px;
+	top: 0;
+	width: 1150px;
+	height: 45px;
+	padding-top: 30px;
+	border-bottom: 1px solid #393939;
+}
+.footer .list1 li{
+	float: left;
+	margin-right: 15px;
+}
+.footer .list1 li a{
+	font-size: 14px;
+	color: #fff;
+}
+.footer .list1 span{
+	float: right;
+	font-size: 14px;
+	color: #7dcfa0;
+}
+.footer .list2{
+	position: absolute;
+	left: 100px;
+	top: 89px;
+	width: 959px;
+	cursor: pointer;
+}
+.footer .list2 .ll{
+	float: left;
+	height: 33px;
+	padding: 0 10px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	font-size: 12px;
+	line-height: 33px;
+	color: #888c8e;
+	background-color: #111111;
+}
+.footer .list2 li.current{
+	background-color: #394043;
+	color: #fff;
+}
+.footer .list2 .ll .l_detail{
+	position: absolute;
+	left: 0;
+	top: 93px;
+	margin-bottom: 23px;
+	display: none;
+}
+.footer .list2 li.current .l_detail{
+	display: block;
+}
+.footer .list2 .ll .l_detail li{
+	float: left;
+	font: 12px/27px "微软雅黑";
+	margin-right: 10px;
+	color: #888c8e;
+}
+.footer .cr{
+	position: absolute;
+	left: 100px;
+	top: 289px;
+	width: 1150px;
+	height: 39px;
+	padding-top: 25px;
+	border-top: 1px solid #393939;
+}
+.footer .cr p{
+	width: 695px;
+	height: 16px;
+	font: 12px/16px "微软雅黑";
+	color: #888c8e;
+}
+.footer .cr a{
+	display: block;
+	width: 600px;
+	height: 22px;
+	padding-left: 25px;
+	font: 12px/22px "微软雅黑";
+	color: #888c8e;
+	background: url(../images/beian.png) no-repeat;
+}
